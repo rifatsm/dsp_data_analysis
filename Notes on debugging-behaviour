@@ -24,4 +24,41 @@ Basic:
 # 157 projects have at least one DPS launch in both normal launches and test launches
 
 Project-wise:
-# 
+- Basic
+# 164 submissions/students for Project 1
+# 144 submissions/students for Project 2 
+# 134 submissions/students for Project 3
+# 125 submissions/students for Project 4
+
+- Debugger Session
+# 124 students have at least once used the debugger for Project 1
+# 110 students have at least once used the debugger for Project 2
+# 86 students have at least once used the debugger for Project 3
+# 86 students have at least once used the debugger for Project 4
+
+# 49.984 is the mean debugSessionCount (non-zero data points) for Project 1 
+# 89.8 is the mean debugSessionCount (non-zero data points) for Project 2 
+# 53.477 is the mean debugSessionCount (non-zero data points) for Project 3 
+# 60.605 is the mean debugSessionCount (non-zero data points) for Project 4 
+
+- Normal Launches 
+# 62 students have at least one DPS in normal launches for Project 1
+# 73 students have at least one DPS in normal launches for Project 2
+# 29 students have at least one DPS in normal launches for Project 3
+# 0 student have at least one DPS in normal launches for Project 4
+
+# 175.516 is the mean number of DPS in normal launches for Project 1
+# 192.082 is the mean number of DPS in normal launches for Project 2
+# 53.517 is the mean number of DPS in normal launches for Project 3
+# 0 is the mean number of DPS in normal launches for Project 4
+
+- Test Launches 
+# 76 students have at least one DPS in test launches for Project 1
+# 95 students have at least one DPS in test launches for Project 2
+# 46 students have at least one DPS in test launches for Project 3
+# 0 student have at least one DPS in test launches for Project 4
+
+# 525.566 is the mean number of DPS in test launches for Project 1
+# 786.347 is the mean number of DPS in test launches for Project 2
+# 200.87 is the mean number of DPS in test launches for Project 3
+# 0 is the mean number of DPS in test launches for Project 4
