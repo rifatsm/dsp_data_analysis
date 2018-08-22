@@ -1,0 +1,27 @@
+Hey Rifat -- I've attached a data file. It contains the following columns:
+userName
+assignment
+normalLaunches -- The number of normal launches where the number of diagnostic print statements was > 0
+testLaunches -- The number of test launches where the number of diagnostic print statements was > 0
+debugSessionConuts -- The number of debugger sessions
+
+Using these data, see if you can come up with some conclusions about. Some questions to start you off:
+Are there "groups" or "clusters" of students who tend to use print statements more than the debugger?
+
+Basic:
+# There are 176 unique students in the course (according to the data).
+# There are total 567 project submissions. Each student submits atmost 4 projects. 
+
+- How many students use the debugger at all? 
+# 147 students use the debugger in at least one of their projects
+# 406 projects have at least once launched the debugger
+
+- How many students use print statements at all? 
+# 126 students used DPS at least once (either in normalLaunch or testLaunch)
+# 224 projects have at least a DPS in either a normalLaunch or a testLaunch 
+# 164 projects have at least one DPS launch in normal launches
+# 217 projects have at least one DPS launch in test launches
+# 157 projects have at least one DPS launch in both normal launches and test launches
+
+Project-wise:
+# 
