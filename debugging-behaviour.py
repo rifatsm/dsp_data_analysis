@@ -110,16 +110,16 @@ df_p2_test = df_p2[df_p2.testLaunches != 0]
 df_p3_test = df_p3[df_p3.testLaunches != 0]
 df_p4_test = df_p4[df_p4.testLaunches != 0]
 
-print len(df_p1_test) # 76 students have at least one DPS in normal launches for Project 1
-print len(df_p2_test) # 95 students have at least one DPS in normal launches for Project 2
-print len(df_p3_test) # 46 students have at least one DPS in normal launches for Project 3
-print len(df_p4_test) # 0 student have at least one DPS in normal launches for Project 4
+# print len(df_p1_test) # 76 students have at least one DPS in test launches for Project 1
+# print len(df_p2_test) # 95 students have at least one DPS in test launches for Project 2
+# print len(df_p3_test) # 46 students have at least one DPS in test launches for Project 3
+# print len(df_p4_test) # 0 student have at least one DPS in test launches for Project 4
 
 ### Calculating mean of all DPS for normal launches for each projects
-print df_p1_test["testLaunches"].mean() # 525.566 is mean number of DPS in normal launches for Project 1
-print df_p2_test["testLaunches"].mean() # 786.347 is mean number of DPS in normal launches for Project 2
-print df_p3_test["testLaunches"].mean() # 200.87 is mean number of DPS in normal launches for Project 3
-print df_p4_test["testLaunches"].mean() # 0 is mean number of DPS in normal launches for Project 4
+# print df_p1_test["testLaunches"].mean() # 525.566 is mean number of DPS in test launches for Project 1
+# print df_p2_test["testLaunches"].mean() # 786.347 is mean number of DPS in test launches for Project 2
+# print df_p3_test["testLaunches"].mean() # 200.87 is mean number of DPS in test launches for Project 3
+# print df_p4_test["testLaunches"].mean() # 0 is mean number of DPS in test launches for Project 4
 
 ### Outputting to files
 # df_p1_normal.to_csv("/Summer 2018/Dr. Cliff Shaffer's Lab/DSP vs Launch Times Analysis/df_p1_normal.csv", index=False)
