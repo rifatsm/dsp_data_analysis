@@ -59,11 +59,19 @@ for index, row in df_p1.iterrows():
 X = np.array(df_p1.drop(['score'],1).astype(float))
 y = score_array
 
+### Running the Kmeans algo for different cluster size
 for clust in range(1,20):
 	print "clust: " + str(clust) + " " + str(kmeans_correctness(clust, X, y)*100) # The best result is for clust == 2 
+
+### Append score_array to the dataframe
+# df_out = df_p1
+# df_out['score'] = score_array
+
+# print df_out
 
 # print describe
 
 ### Outputing to files 
 # describe.to_csv("/Summer 2018/Dr. Cliff Shaffer's Lab/DSP vs Launch Times Analysis/describe.csv", index=True)
+# df_out.to_csv("/Summer 2018/Dr. Cliff Shaffer's Lab/DSP vs Launch Times Analysis/df_out_2.csv", index=True)
 
